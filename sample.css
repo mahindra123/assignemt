@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.icons-1 {
+    width: 106px;
+    height: 106px;
+}
+
+.work-container-para {
+    font-weight: bold;
+    padding-right: 20px;
+
+}
+
+.work-container-1 {
+    width: 100px;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.vertical-line::before {
+    content: "";
+    border-left: 3px solid;
+    height: 190px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hr-line {
+    width: 50px;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.sub-container {
+    padding: 10px;
+
+
+}
+
+.cont-0 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-1 {
+    display: flex;
+    padding: 20px;
+}
+
+.icons {
+    margin: 15px;
+}
+
+h {
+    margin: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.bg-container {
+    background-color: #FFA1A9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: #2A2A63;
+    padding: 30px;
+}
+
+.sub-container-1 {
+    width: 100px;
+}
+
+.sub-container-2 {
+    width: 440px;
+}
